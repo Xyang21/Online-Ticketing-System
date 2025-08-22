@@ -1,0 +1,115 @@
+The Online Event Ticketing System is designed to enable users to seamlessly browse, book, and manage event tickets via a digital platform. It aims to enhance user convenience, ensure secure transactions, and simplify administrative operations like event creation, capacity management, and refund handling.
+
+2. Functional Requirements
+
+These define the core features the system must provide:
+
+User Registration & Login
+
+Users (customers) can create accounts, log in, and manage their profiles.
+
+Admins and staff have separate roles with distinct privileges.
+
+Event Browsing & Search
+
+Users can view available events by date, category, or location.
+
+Search filters allow sorting by price, popularity, or seating availability.
+
+Seat Selection & Booking
+
+Interactive seat maps with real-time availability.
+
+Users can add tickets to their cart and proceed to checkout.
+
+Secure Payment Processing
+
+Integration with payment gateways (eSewa, Khalti, cards).
+
+Users receive digital receipts and QR-coded tickets.
+
+QR Ticket Generation & Validation
+
+Unique QR codes for each purchased ticket.
+
+Venue staff can scan and validate QR codes at the entrance.
+
+Event Management (Admin)
+
+Create, update, or cancel events.
+
+Manage seating capacity, ticket pricing, and event details.
+
+Refunds & Cancellations
+
+Admins can process refunds or cancel bookings with proper logs.
+
+Automated email notifications for updates and cancellations.
+
+Reports & Analytics (Admin)
+
+Generate sales reports, track attendance, and monitor revenue.
+
+3. Non-Functional Requirements
+
+These focus on performance, security, and usability:
+
+Performance:
+
+The system should handle at least 500 concurrent users without performance degradation.
+
+Real-time seat updates should occur within 2 seconds.
+
+Security:
+
+Implement SSL/TLS encryption for all data transfers.
+
+Store passwords using hashing (e.g., bcrypt).
+
+Role-based access control (RBAC) for different users.
+
+Usability:
+
+Mobile-responsive interface for ease of access.
+
+Simple navigation with minimal clicks for ticket booking.
+
+Reliability & Availability:
+
+System uptime of 99% with backup servers.
+
+Automatic recovery protocols in case of system failure.
+
+Scalability:
+
+Ability to add more events, venues, and users without architectural changes.
+
+4. Stakeholders
+
+Customers/Users: Book tickets and manage their reservations.
+
+Event Organizers/Admins: Manage events, pricing, refunds, and reports.
+
+Venue Staff: Scan QR codes and verify tickets.
+
+System Developers & Maintainers: Ensure smooth deployment and upgrades.
+
+5. Assumptions & Constraints
+
+Users must have internet access and valid payment methods.
+
+Payment gateways must support Nepal’s local and international transactions.
+
+All event data (seats, pricing, timing) is provided by the event organizers.
+
+6. Requirement Gathering Techniques Used
+
+Brainstorming sessions with students/team members.
+
+Reviewing similar platforms (e.g., Eventbrite) for feature inspiration.
+
+Instructor feedback to validate feasibility.
+
+7. Summary Statement
+
+The Online Event Ticketing System focuses on creating a reliable, secure, and user-friendly digital ticket booking experience. By integrating Agile practices, version control (GitHub), and project management tools (Trello), this project replicates industry-standard workflows while ensuring all stakeholders’ needs are addressed.

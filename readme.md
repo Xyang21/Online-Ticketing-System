@@ -1,63 +1,76 @@
-# 🎟️ Online Ticketing System
-
-*A modern, Agile-based ticket booking solution with QR codes, admin panel, and collaborative project documentation.*
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow) 
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![License](https://img.shields.io/badge/License-MIT-green) 
-![Agile](https://img.shields.io/badge/Methodology-Agile-orange)
+<h1 align="center">🎫 Online Ticketing System</h1>
+<p align="center">
+A lightweight Agile-based event booking solution featuring secure QR code tickets, an admin panel, and team collaboration.
+</p>
 
 ---
 
-## 📖 Overview
-The **Online Ticketing System** is developed using **Agile methodology** to simulate real-world software project management with **Trello** and **GitHub**.  
-It enables **event browsing, secure ticket booking, QR code generation, and staff-side validation** with industry-standard documentation.
+## 📌 Table of Contents
+1. [About the Project](#about-the-project)
+2. [Team Roles](#team-roles)
+3. [Features](#features)
+4. [Workflow](#workflow)
+5. [Tech Stack](#tech-stack)
+6. [Testing](#testing)
+7. [Screenshots](#screenshots)
+8. [References](#references)
 
 ---
 
-## 👥 Team Members
-
-| Role                        | Name              | Responsibilities                   |
-|----------------------------|-------------------|------------------------------------|
-| **Scrum Master / Product Owner** | **Nima Yangzen Lama** | GitHub & version control, sprint coordination |
-| **Requirements Lead**      | **Kritika**       | Requirements analysis, backlog creation |
-| **UML & Design Lead**      | **Prajwol**       | UML diagrams, system design |
+## About the Project
+The **Online Ticketing System** demonstrates modern **Agile software project management** practices.  
+It allows **users to browse events, purchase QR-based tickets**, and **admins/staff to manage and validate entries**.  
+The project emphasizes **documentation**, **UML design**, and **testing workflows** instead of direct coding.
 
 ---
 
-## ✨ Key Features
-- **Browse & Search Events:** Explore events and choose seats.
-- **Secure Booking & Payment:** Integrated with QR code ticket generation.
-- **Admin Panel:** Event creation, seating management, refunds, analytics.
-- **Staff Validation:** QR scanning at entry points.
+## Team Roles
+
+| **Name**              | **Role**                   | **Responsibilities**                  |
+|-----------------------|----------------------------|---------------------------------------|
+| Nima Yangzen Lama     | Scrum Master / Version Lead | GitHub version control, sprint tracking |
+| Kritika               | Requirements Analyst       | Backlog creation, requirements, Trello |
+| Prajwol               | UML & Design Lead          | UML diagrams, design documentation    |
 
 ---
 
-## 🚀 Agile Workflow
-- **Product Backlog:** 8–10 user stories with priorities & story points.
-- **Sprints:**
-  - *Sprint 1:* Requirements, UML design, test strategy, documentation.
-  - *Sprint 2:* Refined design, additional test cases, presentation.
-- **Trello Board:** Backlog management & sprint tracking (screenshots included).
+## Features
+
+- Event search and seat selection  
+- Secure ticket booking with **QR codes**  
+- Admin panel: event setup, seating capacity, refunds, analytics  
+- Real-time QR validation for event staff
 
 ---
 
-## 🛠 Tools & Tech Stack
-- **Trello** – Agile project management *(user stories & sprints)*
-- **GitHub** – Version control *(branches, pull requests)*
-- **Draw.io / Lucidchart** – UML diagrams *(Use Case, Class, Sequence, Activity)*
-- **Excel / Google Sheets** – Test matrices & documentation
+## Workflow
+
+- **Product Backlog:** 8–10 user stories with MoSCoW priority & story points  
+- **Sprints:**  
+  - *Sprint 1:* Requirements, UML diagrams, initial test design  
+  - *Sprint 2:* Test documentation & presentation prep  
+- **Project Management Tool:** Trello (backlog & sprint board)
 
 ---
 
-## 🧪 Testing
-Comprehensive testing across all levels:
-- **Unit Tests:** Login, QR generation
-- **Integration Tests:** Booking & payment workflows
-- **System Tests:** End-to-end booking
-- **UAT:** Usability & validation testing
+## Tech Stack
 
-Reports available in:
+- **Project Management:** Trello  
+- **Version Control:** GitHub (branches & pull requests)  
+- **Modeling Tools:** Draw.io / Lucidchart  
+- **Documentation:** Excel / Google Sheets  
+
+---
+
+## Testing
+
+- **Unit Tests:** Login and QR code generation  
+- **Integration Tests:** Booking & payment flow  
+- **System Tests:** Full end-to-end workflow  
+- **User Acceptance Tests (UAT):** Validation with stakeholders  
+
+Detailed reports:  
+
 
 
 ---
